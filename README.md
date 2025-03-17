@@ -14,5 +14,6 @@ The goal of this repository is to showcase some of the Gradle features supported
 - Version catalogs declared in [Gradle](https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog-declaration) and [TOML](https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format) files (`gradle/libs.versions.toml`).
 - [Multi-project builds](https://docs.gradle.org/current/userguide/declaring_dependencies_between_subprojects.html), project names, project references.
 - [Spring's `mavenBom`](https://docs.spring.io/dependency-management-plugin/docs/current/reference/html/#dependency-management-configuration-bom-import).
+- [Spring plugin BOM](https://docs.spring.io/spring-boot/gradle-plugin/managing-dependencies.html)
 - Maven BOMs as [`platform`](https://docs.gradle.org/current/userguide/platforms.html#sub:using-platform-to-control-transitive-deps) dependencies.
 - [Script plugins](https://docs.gradle.org/current/userguide/plugins.html#sec:old_plugin_application) `apply from` method
