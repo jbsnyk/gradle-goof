@@ -29,3 +29,16 @@ dependencies {
 }
 
 apply from: "dependencies.gradle"
+
+allprojects {
+  repositories {
+    google()
+  }
+}
+
+subprojects {
+  apply plugin: 'java'
+  dependencies {
+    implementation "org.hamcrest:hamcrest-core:2.2"
+  }
+}
